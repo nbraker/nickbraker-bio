@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nick Braker — Space Opera Author & Christian Rock Musician</title>
+<meta name="description" content="Nick Braker writes space opera sci-fi (Galactic Satori, Essence series) and creates Christian rock and industrial metal music. Hoping to make people smile/laugh, starting with himself.">
+<style>
+  :root {
+    --bg: #0a0a12;
+    --card: #141422;
+    --text: #e8e6f0;
+    --muted: #9a97b0;
+    --accent: #6c5ce7;
+    --accent2: #00cec9;
+    --gold: #fdcb6e;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.7;
+    min-height: 100vh;
+  }
+  .hero {
+    text-align: center;
+    padding: 80px 20px 60px;
+    background: radial-gradient(ellipse at top, #1a1a3e 0%, var(--bg) 70%);
+  }
+  .avatar {
+    width: 140px; height: 140px;
+    border-radius: 50%;
+    border: 3px solid var(--accent);
+    object-fit: cover;
+    margin-bottom: 24px;
+    box-shadow: 0 0 40px rgba(108, 92, 231, 0.4);
+  }
+  h1 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+    margin-bottom: 8px;
+  }
+  .tagline {
+    color: var(--accent2);
+    font-size: 1.15rem;
+    margin-bottom: 20px;
+  }
+  .bio {
+    max-width: 640px;
+    margin: 0 auto 28px;
+    font-size: 1.1rem;
+    color: var(--muted);
+  }
+  .tags {
+    display: flex; flex-wrap: wrap; gap: 10px;
+    justify-content: center;
+  }
+  .tag {
+    background: var(--card);
+    border: 1px solid #2a2a44;
+    border-radius: 20px;
+    padding: 6px 16px;
+    font-size: 0.9rem;
+    color: var(--gold);
+  }
+  .section {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 60px 20px;
+  }
+  h2 {
+    font-size: 1.6rem;
+    margin-bottom: 28px;
+    text-align: center;
+    color: var(--accent2);
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 24px;
+  }
+  .card {
+    background: var(--card);
+    border: 1px solid #2a2a44;
+    border-radius: 12px;
+    padding: 28px;
+    transition: transform 0.2s, border-color 0.2s;
+  }
+  .card:hover {
+    transform: translateY(-4px);
+    border-color: var(--accent);
+  }
+  .card h3 { margin-bottom: 12px; font-size: 1.2rem; }
+  .card p { color: var(--muted); font-size: 0.95rem; }
+  .card a {
+    color: var(--accent2);
+    text-decoration: none;
+    font-weight: 600;
+  }
+  .card a:hover { text-decoration: underline; }
+  .links {
+    text-align: center;
+    padding: 40px 20px 80px;
+  }
+  .links a {
+    display: inline-block;
+    margin: 0 12px 12px;
+    padding: 12px 28px;
+    background: var(--accent);
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s;
+  }
+  .links a:hover { background: #5a4bd6; }
+  .links a.secondary {
+    background: transparent;
+    border: 1px solid var(--accent2);
+    color: var(--accent2);
+  }
+  .links a.secondary:hover { background: rgba(0, 206, 201, 0.1); }
+  footer {
+    text-align: center;
+    padding: 30px;
+    color: var(--muted);
+    font-size: 0.85rem;
+    border-top: 1px solid #1e1e36;
+  }
+  @media (max-width: 600px) {
+    h1 { font-size: 1.8rem; }
+    .hero { padding: 50px 16px 40px; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <img class="avatar" src="https://pbs.twimg.com/profile_images/2046333103652950016/9CPHlLwf.jpg" alt="Nick Braker">
+  <h1>Nick Braker</h1>
+  <p class="tagline">Space Opera Author · Christian Rock Musician</p>
+  <p class="bio">Hoping to make people smile/laugh (starting with myself). Creating music, too. Several are Christian ROCK!</p>
+  <div class="tags">
+    <span class="tag">#SciFi</span>
+    <span class="tag">#spaceopera</span>
+    <span class="tag">#aliens</span>
+    <span class="tag">#ChristianRock</span>
+  </div>
+</header>
+
+<section class="section">
+  <h2>What I Do</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>📖 Sci-Fi Author</h3>
+      <p>Six-book space opera series spanning <strong>Galactic Satori</strong> and the <strong>Essence Chronicles</strong> (Septima, Alta, Amber...). Coming-of-age tales of unlikely heroes, alien essence parasites, and the fight to save Earth. Books 1–3 published; 4–6 written; Book 7 in planning.</p>
+    </div>
+    <div class="card">
+      <h3>🎵 Music Creator</h3>
+      <p>30+ albums and 100+ songs across Christian metal/rock, rock, blues, jazz, and kids music — all created with AI music tools. Recent releases include <em>Defiance Eternal</em>, <em>Gears of Tyranny</em>, and <em>Alta's Story</em>.</p>
+    </div>
+    <div class="card">
+      <h3>🎥 Short Films & Visuals</h3>
+      <p>Original short film concepts with posters, gothic video loops, and character art. Exploring AI video generation for cinematic storytelling.</p>
+    </div>
+    <div class="card">
+      <h3>♔ Tabletop & Worlds</h3>
+      <p>D&D Dungeon Master, GURPS sci-fi solo campaigns (lunar colony RPG), and ongoing narrative adventures. Building AI-powered game master tools for persistent worlds.</p>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <h2>Featured Work</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>Essence Series</h3>
+      <p>Troy, a man crippled by irrational fears, is kidnapped by aliens and becomes the host for a dead general's lingering essence. He must save both Pira and Earth — while fighting for control of his own soul. Steamy, twisty, relentless.</p>
+      <a href="https://www.nickbraker.net">Read more →</a>
+    </div>
+    <div class="card">
+      <h3>Galactic Satori</h3>
+      <p>Earth faces impending domination by an alien race, and a small team of young people stands in the way. Believable characters, an ingenious backdrop, and twists readers say they've never seen before.</p>
+      <a href="https://www.nickbraker.net">Read more →</a>
+    </div>
+    <div class="card">
+      <h3>Defiance Eternal</h3>
+      <p>Christian rock album. The final track, "Lake of Fire," ends where Scripture said it would — Satan's last stand, then the fire God promised.</p>
+      <a href="https://suno.com" target="_blank">Listen on SUNO →</a>
+    </div>
+    <div class="card">
+      <h3>Gears of Tyranny</h3>
+      <p>Industrial rock. Dark, heavy, relentless — a warning wrapped in crushing riffs and cold machinery.</p>
+      <a href="https://suno.com" target="_blank">Listen on SUNO →</a>
+    </div>
+  </div>
+</section>
+
+<div class="links">
+  <a href="https://www.nickbraker.net">Author Website</a>
+  <a href="https://x.com/Nick_Braker" target="_blank">X / Twitter</a>
+  <a href="https://suno.com" class="secondary" target="_blank">Music on SUNO</a>
+  <a href="https://www.facebook.com/share/14nqPVLdy7Y/" class="secondary" target="_blank">Charita's Easy Kitchen</a>
+</div>
+
+<footer>
+  <p>Nick Braker · Wilmington, OH & Largo, FL · Built with care</p>
+</footer>
+
+</body>
+</html>
